@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form id="login-form" method="POST"> <!-- The form ID is how the JS can access the data from the form -->
+            <input type="text" name="username" placeholder="Your Username">
+            <input type="password" name="password" placeholder="Your Password">
+            <input type="submit" value="Login">
+        </form>
+
+        <br>
+
+        <form id="search-form" method="GET"> <!-- The form ID is how the JS can access the data from the form -->
+            <input type="text" name="q" placeholder="Your search">
+            <input type="submit" value="Search">
+        </form>
+
+        <div id="content-container">
+
+        </div>
+
+        <script src="./client.js"></script>
+
+    </body>
+</html>
